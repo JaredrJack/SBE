@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-import { LOG_IN } from '../utils/API';
+import { LOG_IN } from '../utils/mutation';
 import Auth from '../utils/auth';
 
 const LoginForm = () => {
